@@ -1,0 +1,85 @@
+
+body{
+	padding: 10px 10px 10px 10px;
+	font-family: times-new-roman;
+	background-color: black;
+	color: lightgrey;
+}
+
+img, iframe{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	border: 4px solid orange;
+}
+
+iframe{
+	border-radius: 0px;
+}
+
+img[src="img/print-ninja-logo.png"]{
+	width: 200px;
+	border-color: black;
+	background-color: red;
+	border-radius: 200px;
+	padding: 30px 0px 30px 0px;
+
+}
+
+
+h1{
+	color: orange;
+	font-size: 28px;
+	
+}
+
+h2{
+	color: orange;
+	font-size: 24px;
+	
+}
+
+p{
+	color: lightgrey;
+	padding-bottom: 3px;
+}
+
+a:link, a:visited{
+	color: orange;
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+
+}
+
+a:active{
+	color: darkgrey;
+}
+
+a[href^="http"]{
+
+	background-image: url(img/globo.png);
+	
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding: 2px 20px 2px 0px;
+}
+
+#nota{
+	opacity: 0.5;	
+}
+
+#passos{
+
+	font-size: 20px;
+}
+
+#numeros{
+	color: black;
+	background-color: orange;
+	font-size: 25px;
+	padding: 3px 3px 0px 3px;
+}
